@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title> MySelf </title>
+        <title> Myself </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width= device-width, intial-scale=1.0">
     </head>
@@ -20,7 +20,17 @@ and open the template in the editor.
         <div class="content">
             <h2>Chapter 2</h2>
             <p>We gonna study in detail how to detect the element and how to select them wherever they are. According to <strong>Google</strong>
-                id is mostly preffered by QA.</p> 
+                id is mostly preffered by QA.</p>  <!--p means for paragraph in which content is written-->
+        </div>
+        <div id="Listofelements"> <!--div, in which elements are declared-->
+            <h4>Listofelements</h4> <!--header 4-->
+            <ul>
+                <li>id</li> <!--list of item tag-->
+                <li>class</li>
+                <li>xpath(absolute, dynamic)</li>
+                <li>css selector</li>
+                <li>linkText</li>
+            </ul>  <!--unordered function-->
         </div>
     </body>
 
